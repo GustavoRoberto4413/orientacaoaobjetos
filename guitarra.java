@@ -62,7 +62,7 @@ public class Guitarra {
     } 
     //O método main() é o método principal da classe
     public static void main(String[] args) {
-      Guitarra minhaGuitarra = new Guitarra("01020304", "Fender", "Telecaster", "elétrica", "mogno", 1500);
+      Guitarra minhaGuitarra = new Guitarra("01020304", "fender", "telecaster", "elétrica", "mogno", 1500);
 
       //Testando os dados da classe, imprimindo a saída simples no terminal
       System.out.println(minhaGuitarra.getNumeroSerie());
